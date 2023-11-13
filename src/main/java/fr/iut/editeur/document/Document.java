@@ -8,7 +8,7 @@ public class Document {
         this.texte = "";
     }
 	
-    public int getTexte() {
+    public String getTexte() {
         return texte;
     }
 

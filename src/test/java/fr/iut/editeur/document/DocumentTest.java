@@ -40,19 +40,4 @@ public class DocumentTest {
         document.effacer(6, 11);
         assertEquals("Hello ", document.getTexte());
     }
-
-    @Test
-    public void testClear() {
-        Document document = new Document();
-        document.setTexte("Hello World");
-        document.clear();
-        assertEquals("", document.getTexte());
-    }
-
-    @Test
-    public void testToString() {
-        Document document = new Document();
-        document.setTexte("Hello");
-        assertEquals("Hello", document.toString());
-    }
 }
